@@ -115,9 +115,3 @@ int WINAPI WinMain(HINSTANCE ins,HINSTANCE ins2,LPSTR cmd, int estado){
     return (int) msj.wParam;
 
 }
-
-
-
-
-
-

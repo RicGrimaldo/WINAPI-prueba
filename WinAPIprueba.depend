@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1590967398 source:c:\users\ricardo grimaldo\downloads\winapiprueba\main.c
+	<windows.h>
+	<windowsx.h>
+	<stdio.h>
+

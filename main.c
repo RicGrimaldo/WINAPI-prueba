@@ -41,14 +41,14 @@ LRESULT CALLBACK winProc(HWND hwnd,UINT msj,WPARAM wParam,LPARAM lParam){
         if((HWND)lParam == leertxt){
             char gtext[100],c[2];
             GetWindowText(texto,gtext,100);
-/*
+
             if(Longitud_cadena(gtext)<10)
             c[0]=enteroACaracter(Longitud_cadena(gtext));
             else{
                 c[0]=enteroACaracter(Longitud_cadena(gtext)/10);
                 c[1]=enteroACaracter(Longitud_cadena(gtext)%10);
             }
-            MessageBox(hwnd,c,"Longitud de texto",MB_OK | MB_ICONINFORMATION);*/
+            MessageBox(hwnd,c,"Longitud de texto",MB_OK | MB_ICONINFORMATION);
 
             strupr(gtext);
             MessageBox(hwnd,gtext,"Mayusculas",MB_OK | MB_ICONASTERISK);
